@@ -17,6 +17,7 @@
   "author": "tesk9",
   "license": "BSD-3-Clause",
   "devDependencies": {
+    "elm": "latest-0.19.1",
     "elm-format": "^0.8.0",
     "elm-test": "^0.19.1"
   }

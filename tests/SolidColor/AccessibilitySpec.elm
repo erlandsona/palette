@@ -52,7 +52,7 @@ checkContrastSuite =
         [ describe "Regular sized text" <|
             let
                 subject =
-                    checkContrast { fontSize = 12, fontWeight = 300 }
+                    checkContrast { size = 12, weight = 300 }
             in
             [ test "black and white has sufficient contrast for AA standard" <|
                 \_ ->
@@ -78,7 +78,7 @@ checkContrastSuite =
         , describe "Large text" <|
             let
                 subject =
-                    checkContrast { fontSize = 19, fontWeight = 300 }
+                    checkContrast { size = 19, weight = 300 }
             in
             [ test "black and white has sufficient contrast to meet AA standard" <|
                 \_ ->
